@@ -5,12 +5,7 @@
 int main(int argc, const char **argv) {
 	SetConsoleCP(CP_UTF8);
 	SetConsoleOutputCP(CP_UTF8);
-
-	for (int i = 0; i < argc; ++i) {
-		printf("%s\n", argv[i]);
-	}
-	system("pause");
-
+	
 	HWND hwnd = NULL;
 	char key = '\0';
 	char state_flag = 0;
@@ -34,6 +29,7 @@ int main(int argc, const char **argv) {
 
 	if (!hwnd || !key) {
 		perror("Couldn't get window and/or hot-key");
+		system("pause");
 		exit(1);
 	}
 	
