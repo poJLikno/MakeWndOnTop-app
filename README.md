@@ -15,4 +15,4 @@ Also you can run the app with options:
 `MakeWndOnTop.exe {window name} {hot-key (UPPERCASE)}`
 
 # Download
-Will be soon
+You can download app *[here](https://github.com/poJLikno/MakeWndOnTop-app/releases)*
